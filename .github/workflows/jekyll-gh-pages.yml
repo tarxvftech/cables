@@ -37,8 +37,8 @@ jobs:
           workflow_conclusion: success
           check_artifacts: true
           name: images
-          path: ./jekyll_site/
-            #will be under 'images'
+          path: ./jekyll_site/images/
+            #e.g. https://tarxvftech.github.io/ham_cables_and_pinouts/images/Module17_YaesuFTM.png
 
       - run: ls -altrR jekyll_site
 

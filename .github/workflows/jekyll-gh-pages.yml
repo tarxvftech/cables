@@ -19,6 +19,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
+      #uses more minutes, but means the latest is always uploaded.
+      #...or you can just manually re-run jekyll. shrug.
+      - name: Pause until all other workflows are completed
+        uses: willgarcia/workflow-wait-action@v0.1.0
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages

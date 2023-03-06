@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: sudo apt-get install -y graphviz
+      - uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: graphviz
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
@@ -13,4 +15,8 @@ jobs:
       - run: |
           pip install -r requirements.txt
       - run: make
-
+      - name: Upload Images
+        uses: actions/upload-artifact@v3
+        with:
+          path: |
+            build/*.png

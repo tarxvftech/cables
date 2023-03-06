@@ -1,0 +1,7 @@
+templates:
+  - type: DIN
+    pincount: 6
+    pinlabels: [GND, Data_in, Data_out_9600, PTT, SQL, Data_out_1200]
+    image:
+      src: "../devices/Yaesu/FT8xx/din6.png"
+      caption: "Appears to be radio/female side pictured"

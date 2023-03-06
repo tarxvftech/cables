@@ -1,0 +1,26 @@
+connectors:
+  DB9:
+    subtype: male
+    <<: *devices_M17_Module17_J7
+  DIN6:
+    subtype: male
+    <<: *devices_Yaesu_FT8xx_din6
+  DIN8:
+    subtype: male
+    <<: *devices_Yaesu_FT8xx_din8
+cables:
+  W1:
+    length: 0.2
+    color_code: DIN
+    wirecount: 8
+    shield: true
+connections:
+  - 
+    - DB9: [GND,"Baseband_TX","Baseband_RX","PTT"]
+    - W1: [1,2,3,4]
+    - DIN6: [GND,Data_in,Data_out_9600,PTT]
+  - 
+    - DB9: [GND,CAT_TX,CAT_RX]
+    - W1: [1,5,6]
+    - DIN8: [GND,RX_D,TX_D]
+

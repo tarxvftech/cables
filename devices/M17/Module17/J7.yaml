@@ -1,0 +1,8 @@
+templates:
+  - type: D-Sub
+    pinlabels: ["X_NC1","Baseband_TX","CAT_RX","CAT_TX","PTT","Baseband_RX","X_NC2","GND","12v"]
+    pincount: 9
+    pincolors: ['black','brown','red','orange','grey','green','blue','purple','white']
+    image: 
+      src: "../devices/M17/Module17/J7.png"
+      caption: "Module17 J7 (female DE9 side)"

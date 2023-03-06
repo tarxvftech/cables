@@ -1,0 +1,7 @@
+templates:
+  - type: DIN
+    pincount: 8
+    pinlabels: [TX_GND, 12v, RX_D, TX_D, GND, TX_INH, ALC, Band_data]
+    image:
+      src: "../devices/Yaesu/FT8xx/din8.png"
+      caption: "Appears to be radio/female side pictured"

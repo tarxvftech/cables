@@ -20,5 +20,6 @@ jobs:
       - name: Upload Images
         uses: actions/upload-artifact@v3
         with:
+          name: images
           path: |
             build/*.png

@@ -30,7 +30,11 @@ jobs:
           branch: master
           event: push
           workflow_conclusion: success
-          path: ./jekyll_site/artifacts
+          check_artifacts: true
+          name: images
+          path: ./jekyll_site/
+            #will be under 'images'
+
       - run: ls -altrR jekyll_site
 
       - name: Build with Jekyll

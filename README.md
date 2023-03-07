@@ -6,6 +6,14 @@ away some of the connector details into reusable components, so that
 an improvement to a connector description improves all generated cable
 descriptions.
 
+## I just want to make cables or check a pinout
+
+You probably want to see the output from this project
+at https://tarxvftech.github.io/cables/. 
+
+It's a fairly simple website. More features will be added
+if and as they become necessary.
+
 ## How to use/build
 
 ```

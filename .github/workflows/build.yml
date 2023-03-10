@@ -17,9 +17,15 @@ jobs:
       - run: |
           pip install -r requirements.txt
       - run: make
-      - name: Upload Images
+      - name: Upload Cables Images
         uses: actions/upload-artifact@v3
         with:
-          name: images
+          name: cables
           path: |
             build/*.png
+      - name: Upload Connectors Images
+        uses: actions/upload-artifact@v3
+        with:
+          name: connectors
+          path: |
+            build_connectors/*.png

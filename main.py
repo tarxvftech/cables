@@ -26,10 +26,19 @@ def merge_templates(all_under_path, outputfile):
    
 def render_all_connectors(connectorsfile):
     yaml=YAML()
+    p = pathlib.Path("./connectors_temp")
+    p.mkdir(exist_ok=True)
     with open(connectorsfile,'r') as fd:
         allconnectors = yaml.load(fd)
         for t in allconnectors['templates']:
             print(t.anchor.value)
+            tp = p / pathlib.Path(t.anchor.value + ".yaml")
+            with tp.open("w") as fd:
+                fd.write("""
+connectors:
+    %s:
+        <<: *%s
+                """%(t.anchor.value,t.anchor.value))
 
 def main():
     #load up all the yaml in devices/
@@ -37,7 +46,6 @@ def main():
     allconnectors = "devices.yaml"
     merge_templates("devices/",allconnectors)
     render_all_connectors(allconnectors)
-    ...
 
 if __name__ == "__main__":
     main()

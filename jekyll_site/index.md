@@ -16,10 +16,8 @@ changes are made to the source code there.
 
 Here you will find the cables with known definitions.
 
-{% include gallery.html folder="images" %}
+{% include gallery.html folder="cables" %}
 
 ## Connectors
 
-Here you might one day find a reference of the connectors themselves
-to make a master repository of pinouts. But not today! I have work in
-the morning.
+{% include gallery.html folder="connectors" %}

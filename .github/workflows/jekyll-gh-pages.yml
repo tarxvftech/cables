@@ -36,9 +36,19 @@ jobs:
           event: push
           workflow_conclusion: success
           check_artifacts: true
-          name: images
-          path: ./jekyll_site/images/
+          name: cables
+          path: ./jekyll_site/cables/
             #e.g. https://tarxvftech.github.io/ham_cables_and_pinouts/images/Module17_YaesuFTM.png
+      - name: Download artifact
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          workflow: build.yml
+          branch: master
+          event: push
+          workflow_conclusion: success
+          check_artifacts: true
+          name: connectors
+          path: ./jekyll_site/connectors/
 
       - run: ls -altrR jekyll_site
 

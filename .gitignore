@@ -1,3 +1,5 @@
 devices.yaml
 env/
 build/
+build_connectors/
+connectors_temp/

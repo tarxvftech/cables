@@ -20,7 +20,7 @@ connections:
     - W1: [1,2,3,4]
     - DIN6: [GND,Data_in,Data_out_9600,PTT]
   - 
-    - DB9: [GND,CAT_RX,CAT_TX]
-    - W1: [1,5,6]
-    - DIN8: [GND,TX_D,RX_D]
+    - DB9: [12v,GND,CAT_RX,CAT_TX]
+    - W1: [8,7,5,6]
+    - DIN8: [12v,GND,TX_D,RX_D]
 

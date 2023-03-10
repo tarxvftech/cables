@@ -4,4 +4,4 @@ templates:
     pinlabels: [GND, Data_in, Data_out_9600, PTT, SQL, Data_out_1200]
     image:
       src: "../devices/Yaesu/FT8xx/din6.png"
-      caption: "Radio side, female (pinless) side pictured. Pin numbering pattern here follows same as Din8 female (e.g. left to right, bottom to top, bottom leftmost is pin 1 on the female side)"
+      caption: "Radio side, female (pinless) side pictured. \nPin numbering pattern here follows same as Din8 female.\n(i.e. left to right, bottom to top, bottom leftmost is pin 1 on the female side)"

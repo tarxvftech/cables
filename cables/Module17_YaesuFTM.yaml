@@ -8,12 +8,13 @@ connectors:
 cables:
   W1:
     length: 0.2
-    color_code: DIN
-    wirecount: 8
+    wirecount: 10
     shield: true
+    notes: "Colors on diagram from CT-167 cabling. GND is thick black wire."
+    colors: [BN,BK,RD,OG,YE,GN,BU,GY,WH,BK]
 connections:
   - 
     - DB9: ["Baseband_TX",GND, PTT,"Baseband_RX",CAT_RX,CAT_TX]
-    - W1: [1-6]
+    - W1: [1-4,7,8]
     - DIN10: [PKD, GND, PTT, RX_9600,TXD,RXD]
 

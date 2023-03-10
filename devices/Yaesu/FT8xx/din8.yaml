@@ -5,6 +5,4 @@ templates:
     image:
       src: "../devices/Yaesu/FT8xx/din8_combined.png"
       caption: "Radio/Female side (pinless) with labels pictured from manual."
-        #TX_INH is some kind of ability to inhibit tx, stop the radio from transmitting
-        #TX_GND is grounded when radio is TXing
-        #http://www.ka7oei.com/ft817_desc.html
+    notes: "TX_INH is a control to prevent radio from transmitting. TX_GND is a PTT indicator and grounded while radio is transmitting. See http://www.ka7oei.com/ft817_desc.html for details."

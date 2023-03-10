@@ -2,4 +2,4 @@ templates:
   - type: TRS
     pincount: 3
     pinlabels: ["Tip: Dot","Ring: Dash","Sleeve: Common"]
-      #note: use just 'dot' for straight key mode
+    notes: "use just 'dot' and 'common' for straight key mode"

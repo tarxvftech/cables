@@ -5,5 +5,5 @@ templates:
       #PSK doesn't make any sense to me at all, so I used PTT
       #but the picture helps make this clear 
     image:
-      src: "../devices/Yaesu/FTM/din10.png"
-      caption: "Radio/female side pictured. Connector is Yaesu specific (mirror of real din10), recommend getting CT-167 cable kit."
+      src: "../devices/Yaesu/FTM/din10_2.png"
+      caption: "Radio/female side pictured on left. Connector is Yaesu specific (mirror of real din10), recommend getting CT-167 cable kit, also pictured."

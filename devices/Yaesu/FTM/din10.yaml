@@ -2,6 +2,8 @@ templates:
   - type: DIN
     pincount: 10
     pinlabels: [PKD,GND,PTT,RX_9600,RX_1200,PK_SQL,TXD,RXD,CTS,RTS]
+      #PSK doesn't make any sense to me at all, so I used PTT
+      #but the picture helps make this clear 
     image:
       src: "../devices/Yaesu/FTM/din10.png"
-      caption: "Radio/female side pictured"
+      caption: "Radio/female side pictured. Connector is Yaesu specific (mirror of real din10), recommend getting CT-167 cable kit."

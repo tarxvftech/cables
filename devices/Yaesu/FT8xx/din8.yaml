@@ -3,5 +3,8 @@ templates:
     pincount: 8
     pinlabels: [TX_GND, 12v, RX_D, TX_D, GND, TX_INH, ALC, Band_data]
     image:
-      src: "../devices/Yaesu/FT8xx/din8.png"
-      caption: "Appears to be radio/female side pictured"
+      src: "../devices/Yaesu/FT8xx/din8_combined.png"
+      caption: "Radio/Female side (pinless) with labels pictured from manual."
+        #TX_INH is some kind of ability to inhibit tx, stop the radio from transmitting
+        #TX_GND is grounded when radio is TXing
+        #http://www.ka7oei.com/ft817_desc.html

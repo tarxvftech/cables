@@ -1,0 +1,5 @@
+templates:
+  - type: RJ45
+    pincount: 8
+    pinlabels: ["FAST","GND","PTT","MIC","MIC GND", "+5V", "UP","DOWN"]
+      #left to right with pins on bottom, looking at the jack (not plug)

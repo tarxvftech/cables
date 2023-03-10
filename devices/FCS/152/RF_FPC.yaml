@@ -1,0 +1,31 @@
+templates:
+  - type: FPC-24P 0.5mm
+    pinlabels: 
+      - "" #1
+      - "" #2
+      - "" #3
+      - "MIC" #4
+      - "~PTT" #5
+      - "SPKEN" #6
+
+      - "" #7
+      - "" #8 #the unlabeled test point on A002
+      - "VOX" #9
+      - "DAT" #A
+      - "" #B
+      - "" #C
+
+      - "TMS" #13
+      - "T" #14
+      - "RX" #15
+      - "RST" #16
+      - "CLK" #17
+      - "DAT" #18
+
+      - "" #19
+      - "RX" #20
+      - "PD" #21
+      - "GND" #22
+      - "VOX" #23
+      - "" #24
+    pincount: 24

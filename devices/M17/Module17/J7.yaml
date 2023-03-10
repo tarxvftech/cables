@@ -5,4 +5,4 @@ templates:
     pincolors: ['black','brown','red','orange','grey','green','blue','purple','white']
     image: 
       src: "../devices/M17/Module17/J7.png"
-      caption: "Module17 J7 (female DE9 side)"
+      caption: "Module17 J7 (female side on Module17). Standard DB9/DE9 pin numbering. "

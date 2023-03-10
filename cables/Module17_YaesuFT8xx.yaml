@@ -14,7 +14,7 @@ cables:
     color_code: DIN
     wirecount: 8
     shield: true
-    notes: "Colors on diagram do not knowingly correspond to any known wiring."
+    notes: "Colors on diagram do not knowingly correspond to any known wiring. Consider twisted pair. Connect W1 shield, if any, to radio connector shield only."
 connections:
   - 
     - DB9: [GND,"Baseband_TX","Baseband_RX","PTT"]

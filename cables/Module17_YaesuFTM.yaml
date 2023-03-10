@@ -10,7 +10,7 @@ cables:
     length: 0.2
     wirecount: 10
     shield: true
-    notes: "Colors on diagram from CT-167 cabling. GND is thick black wire."
+    notes: "Colors on diagram from CT-167 cabling. GND is thick black wire. Connector W1 shield, if any, to radio connector shield only."
     colors: [BN,BK,RD,OG,YE,GN,BU,GY,WH,BK]
 connections:
   - 

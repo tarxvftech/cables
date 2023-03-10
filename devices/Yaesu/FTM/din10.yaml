@@ -1,7 +1,8 @@
 templates:
   - type: DIN
     pincount: 10
-    pinlabels: [PKD,GND,PTT,RX_9600,RX_1200,PK_SQL,TXD,RXD,CTS,RTS]
+    pinlabels: [PKD,GND,PTT,RX_9600,RX_1200,PK_SQL,TXD,RXD,CTS,RTS,SHIELD]
+    pins: [1,2,3,4,5,6,7,8,9,10,s]
     notes: "Used PTT for pin name instead of PSK, as PSK is not commonly used on other systems and this seemed less confusing. "
     image:
       src: "../devices/Yaesu/FTM/din10_2.png"

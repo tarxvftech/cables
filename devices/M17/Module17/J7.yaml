@@ -1,8 +1,9 @@
 templates:
   - type: D-Sub
-    pinlabels: ["X_NC1","Baseband_TX","CAT_RX","CAT_TX","PTT","Baseband_RX","X_NC2","GND","12v"]
+    pinlabels: ["X_NC1","Baseband_TX","CAT_RX","CAT_TX","PTT","Baseband_RX","X_NC2","GND","12v","SHIELD"]
     pincount: 9
     pincolors: ['black','brown','red','orange','grey','green','blue','purple','white']
+    pins: [1,2,3,4,5,6,7,8,9,s]
     image: 
       src: "../devices/M17/Module17/J7.png"
       caption: "Module17 J7 (female side on Module17). Standard DB9/DE9 pin numbering. "

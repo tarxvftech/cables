@@ -1,0 +1,10 @@
+templates:
+  - type: Generic Serial TTL
+    pinlabels: 
+      - "VBUS"    #1
+      - "TX"      #2
+      - "RX"      #3
+      - "GND"     #4
+      - "s"       #shield
+    pincount: 5
+    notes: "Tx and Rx naming convention is that on each device they\n are labeled to match the behavior of that device - e.g. TX as\n labeled on a chip is the pin that chip will transmit on. This means\n you cross-connect serial devices, so a wire connects two devices A\n and B by connecting GND:GND, A_TX:B_RX and B_TX:A_RX. It is fairly\n common to not connect VBUS, which is most often 5v or 3.3v."

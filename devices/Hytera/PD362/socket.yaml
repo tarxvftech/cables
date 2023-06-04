@@ -1,0 +1,14 @@
+templates:
+  - type: USB Micro-B socket
+    pinlabels: 
+      - "VBUS"     #1
+      - "Radio_RX" #2
+      - "Radio_TX" #3
+      - "NC"       #4
+      - "GND"      #5
+      - "s"        #shield
+    pincount: 6
+    notes: "WARN: Not a USB connection. TTL serial UART!! \nRadio_RX should be connected to your UART adapters TX pin and vice versa."
+    image:
+      src: "../devices/Hytera/PD362/socket.png"
+      caption: "Looking into receptacle, \npin1 is towards the top of radio (i.e. towards antenna side)\n and counts down towards the headphone jack. \nPin numbers match standard USB micro b, \nso pin 1 on plug corresponds to pin 1 on socket/receiver."

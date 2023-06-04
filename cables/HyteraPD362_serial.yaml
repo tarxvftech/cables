@@ -1,0 +1,28 @@
+connectors:
+  Serial:
+    subtype: male
+    <<: *devices_Generic_Serial_ttl
+  Plug:
+    subtype: male
+    <<: *devices_USB_microb_plug
+  Receiver:
+    subtype: female
+    <<: *devices_Hytera_PD362_socket
+cables:
+  W1:
+    length: 0.2
+    wirecount: 4
+    shield: false
+    notes: "Colors on diagram standard USB cable colors. \nNot all USB cables are consistent - cheap ones seem to violate these expectations. \nSo check your pinouts! \nMost USB cables will not come with a wire for shield or the USB OTG pin, making this a four conductor cable."
+    colors: [RD,WH,GN,BK]
+  Direct:
+    length: 0.0
+    wirecount: 4
+    notes: "Plug goes directly into receiver, \nthis is just to show both on the same graph"
+connections:
+  - 
+    - Serial: [1-4]
+    - W1: [1-4]
+    - Plug: [1-3,5]
+    - Direct: [1-4]
+    - Receiver: [1-3,5]

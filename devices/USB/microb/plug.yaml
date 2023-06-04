@@ -1,0 +1,13 @@
+templates:
+  - type: USB Micro-B plug
+    pinlabels: 
+      - "+5v"     #1
+      - "D-"      #2
+      - "D+"      #3
+      - "OTG ID"  #4
+      - "GND"     #5
+      - "s"       #shield
+    pincount: 6
+    image:
+      src: "../devices/USB/microb/plug.png"
+      caption: "With wide part of trapezoid facing away, \nlooking down into the plug (male), \npins are numbered 1-5 with 1 on the rightmost pin"
